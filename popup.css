@@ -4,7 +4,7 @@ body {
   }
   
   h1 {
-    font-size: 16px;
+    font-size: 20px;
   }
   
   ul {
@@ -20,3 +20,34 @@ body {
   li:hover {
     text-decoration: underline;
   }
+
+/* CSS for styling the tab list items */
+.tab-list-item {
+  border-bottom: 2px solid #0073e6; /* Add an underline */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+/* CSS for styling the close button */
+.tab-list-item button {
+  background: none;
+  border: none;
+  color: #0073e6;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* CSS for styling the tab list items */
+.tab-list-item {
+  border-bottom: 2px solid #0073e6; /* Add an underline */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  white-space: nowrap; /* Prevent text from wrapping to multiple lines */
+  overflow: hidden; /* Hide overflowed text */
+  text-overflow: ellipsis; /* Display ellipsis (...) for overflowed text */
+  max-width: 250px; /* Adjust the maximum width as needed */
+}

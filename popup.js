@@ -17,6 +17,9 @@ chrome.tabs.query({}, (tabs) => {
       });
     });
 
+    // Add a CSS class to style the list item
+    listItem.classList.add('tab-list-item');
+
     // Add the close button to the list item
     listItem.appendChild(closeButton);
 
