@@ -1,20 +1,24 @@
 body {
     width: 200px;
     padding: 10px;
+    background-color: #000000;
   }
   
   h1 {
     font-size: 20px;
+    color: #ffffff;
   }
   
   ul {
     list-style-type: none;
     padding: 0;
+    color: #ffffff;
   }
   
   li {
     margin-bottom: 5px;
     cursor: pointer;
+    color: #ffffff;
   }
   
   li:hover {
@@ -33,6 +37,12 @@ body {
 /* CSS for styling the close button */
 .tab-list-item button {
   background-image: url('icon.png');
+  border: none;
+  color: transparent; /* Hide the text by making it transparent */
+  cursor: pointer;
+  text-indent: -9999px; /* Push the text outside the visible area */
+  position: absolute;
+  right: 1px; 
   background-size: cover; /* Scale the background image to cover the button */
   background-repeat: no-repeat; /* Prevent the background image from repeating */
   background-position: center center; /* Center the background image horizontally and vertically */
