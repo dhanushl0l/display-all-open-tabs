@@ -6,9 +6,18 @@ chrome.tabs.query({}, (tabs) => {
     const listItem = document.createElement('li');
     listItem.textContent = tab.title;
 
-    // Create a close button for each tab
     const closeButton = document.createElement('button');
-    closeButton.textContent = 'Close Tab';
+
+    // Create an image element for the button
+    const closeImage = document.createElement('img');
+    closeImage.src = 'icon.png'; // Set the image source
+    
+    // Add a class to the image element
+    closeImage.classList.add('close-button-image');
+    
+    // Add the image element to the button
+    closeButton.appendChild(closeImage);
+    
     closeButton.addEventListener('click', () => {
       // When the close button is clicked, close the tab
       chrome.tabs.remove(tab.id, () => {
@@ -16,11 +25,10 @@ chrome.tabs.query({}, (tabs) => {
         listItem.remove();
       });
     });
-
+    
     // Add a CSS class to style the list item
     listItem.classList.add('tab-list-item');
 
-    closeButton.classList.add('close-Button-item');
 
     // Add the close button to the list item
     listItem.appendChild(closeButton);

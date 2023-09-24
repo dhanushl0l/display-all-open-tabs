@@ -34,27 +34,22 @@ body {
   padding: 10px;
 }
 
-/* CSS for styling the close button */
+/* CSS for styling the close button on the left */
 .tab-list-item button {
-  background-image: url('icon.png');
-  border: none;
-  color: transparent; /* Hide the text by making it transparent */
-  cursor: pointer;
-  text-indent: -9999px; /* Push the text outside the visible area */
-  position: absolute;
-  right: 1px; 
-  background-size: cover; /* Scale the background image to cover the button */
-  background-repeat: no-repeat; /* Prevent the background image from repeating */
-  background-position: center center; /* Center the background image horizontally and vertically */
   border: none;
   cursor: pointer;
-  width: 16px; /* Set the width and height of the button to match the image dimensions */
-  height: 16px;
-  padding: 0; /* Remove any padding or margin */
+  width: 24px; /* Adjust the width as needed */
+  height: 24px; /* Adjust the height as needed */
+  padding: 0;
   margin: 0;
+  position: absolute;
+  left: 1px; /* Adjust the left position as needed to position it on the left side */
 }
 
-
+.close-button-image {
+  width: 100%; /* Make the image width 100% of the button */
+  height: 100%; /* Make the image height 100% of the button */
+}
 /* CSS for styling the tab list items */
 .tab-list-item {
   border-bottom: 2px solid #0073e6; /* Add an underline */
