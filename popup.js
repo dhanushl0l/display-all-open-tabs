@@ -48,6 +48,23 @@ chrome.tabs.query({}, (tabs) => {
       });
     });
     
+    const faviconImage = document.createElement('img');
+    faviconImage.src = tab.favIconUrl || 'default-favicon.png'; // Use a default icon if no favicon is available
+    
+    // Add a class to the image element
+    faviconImage.classList.add('favicon-image');
+    
+    // Add the image element to the list item
+    listItem.appendChild(faviconImage);
+
+    closeButton.addEventListener('click', () => {
+      // When the close button is clicked, close the tab
+      chrome.tabs.remove(tab.id, () => {
+        // After the tab is closed, remove the corresponding list item
+        listItem.remove();
+      });
+    });
+
     // Add a CSS class to style the list item
     listItem.classList.add('tab-list-item');
 
