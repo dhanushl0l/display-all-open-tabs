@@ -4,7 +4,7 @@
 Manage and customize your new tab experience with the New Tabs Manager extension for Firefox.
 
 ## Features
-tab manager for title bar haters with basic buttons
+Tab manager for title bar haters.
 
 ## Installation
 
