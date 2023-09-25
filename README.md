@@ -1,6 +1,5 @@
 # Tabs Manager Extension for Firefox
 
-![Extension Icon]([extension-icon.png](https://github.com/dhanushl0l/display-all-open-tabs/blob/main/tab-icon.png))
 
 Manage and customize your new tab experience with the New Tabs Manager extension for Firefox.
 
@@ -16,10 +15,6 @@ You can install the New Tabs Manager extension for Firefox from the official [Mo
 1. Install the extension from the [Mozilla Add-ons website](https://addons.mozilla.org/firefox/extensions/).
 
 2. Once installed, you'll be able to use it.
-
-## Screenshots
-
-![Screenshot 1]((https://addons.mozilla.org/user-media/previews/thumbs/288/288029.jpg?modified=1695644815))
 
 ## Contributing
 
