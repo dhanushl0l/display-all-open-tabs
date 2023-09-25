@@ -19,7 +19,7 @@ You can install the New Tabs Manager extension for Firefox from the official [Mo
 
 ## Screenshots
 
-![Screenshot 1]([screenshots/screenshot1.png](https://addons.mozilla.org/user-media/previews/thumbs/288/288029.jpg?modified=1695644815))
+![Screenshot 1]((https://addons.mozilla.org/user-media/previews/thumbs/288/288029.jpg?modified=1695644815))
 
 ## Contributing
 
