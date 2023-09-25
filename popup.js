@@ -1,8 +1,23 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const newTabButton = document.getElementById('newTabButton');
+  const tabList = document.getElementById('tabList');
+
+  // Create a new button element
+  const newTabButton = document.createElement('button');
+  newTabButton.textContent = 'New Tab'; // Set the button text
+  newTabButton.id = 'newTabButton'; // Optionally, set the button's ID
+
+  // Apply CSS styles to position the button in the top-right corner
+  newTabButton.style.position = 'fixed';
+  newTabButton.style.top = '10px'; // Adjust the top position as needed
+  newTabButton.style.right = '10px'; // Adjust the right position as needed
+
+  // Add a click event listener to the newly created button
   newTabButton.addEventListener('click', function () {
     chrome.tabs.create({});
   });
+
+  // Append the button to the body of the HTML document
+  document.body.appendChild(newTabButton);
 });
 
 // Get the list of open tabs and display them in the popup
