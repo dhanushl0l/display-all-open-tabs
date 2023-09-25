@@ -24,7 +24,7 @@ body {
   li:hover {
     text-decoration: underline;
   }
-
+  
 /* CSS for styling the tab list items */
 .tab-list-item {
   border-bottom: 2px solid #0073e6; /* Add an underline */

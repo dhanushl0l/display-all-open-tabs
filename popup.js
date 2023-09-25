@@ -1,3 +1,10 @@
+document.addEventListener('DOMContentLoaded', function () {
+  const newTabButton = document.getElementById('newTabButton');
+  newTabButton.addEventListener('click', function () {
+    chrome.tabs.create({});
+  });
+});
+
 // Get the list of open tabs and display them in the popup
 chrome.tabs.query({}, (tabs) => {
   const tabList = document.getElementById('tabList');
