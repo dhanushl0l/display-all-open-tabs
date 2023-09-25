@@ -7,7 +7,7 @@ body {
   h1 {
     font-size: 20px;
     color: #ffffff;
-    position: fixed;
+    position: absolute;
     top: 0px; /* Adjust the top position as needed */
     left: 10px;
     z-index: 9999;
@@ -31,9 +31,14 @@ body {
   
 /* CSS for styling the tab list items */
 .favicon-image {
-  width: 16px; /* Set the width of the favicon image */
-  height: 16px; /* Set the height of the favicon image */
-  margin-right: 5px; /* Add margin to separate the favicon from the tab title */
+  cursor: pointer;
+  position: absolute;
+  right: 5px;
+  width: 20px; /* Set the width of the favicon image */
+  height: 20px; /* Set the height of the favicon image */
+  margin-right: 5px;
+  background-color: black; /* Set the background color to black */
+  padding-left: 5px; /* Add some padding on the left side */
 }
 
 /* CSS for styling the close button on the left */
