@@ -1,6 +1,6 @@
 # Tabs Manager Extension for Firefox
 
-![Extension Icon](extension-icon.png)
+![Extension Icon]([extension-icon.png](https://github.com/dhanushl0l/display-all-open-tabs/blob/main/tab-icon.png))
 
 Manage and customize your new tab experience with the New Tabs Manager extension for Firefox.
 
