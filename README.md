@@ -1,11 +1,10 @@
 # Tabs Manager Extension for Firefox
 
-![Extension Icon](extension-icon.png)
 
 Manage and customize your new tab experience with the New Tabs Manager extension for Firefox.
 
 ## Features
-tab manager for title bar haters with basic buttons
+Tab manager for title bar haters.
 
 ## Installation
 
@@ -17,14 +16,10 @@ You can install the New Tabs Manager extension for Firefox from the official [Mo
 
 2. Once installed, you'll be able to use it.
 
-## Screenshots
-
-![Screenshot 1]((https://addons.mozilla.org/user-media/previews/thumbs/288/288029.jpg?modified=1695644815))
-
 ## Contributing
 
 Contributions are welcome! Please feel free to open issues or submit pull requests.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT.
