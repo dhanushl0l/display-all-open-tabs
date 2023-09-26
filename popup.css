@@ -33,24 +33,21 @@ body {
 .favicon-image {
   cursor: pointer;
   position: absolute;
-  left: 5px;
+  left: 4px;
   width: 20px; /* Set the width of the favicon image */
   height: 20px; /* Set the height of the favicon image */
   margin-right: 5px;
   background-color: #212026; /* Set the background color to black */
-  padding-left: 5px; /* Add some padding on the left side */
 }
 
 /* CSS for styling the close button on the left */
 .tab-list-item button {
-  border: none;
   cursor: pointer;
-  width: 24px; /* Adjust the width as needed */
-  height: 24px; /* Adjust the height as needed */
-  padding: 0;
-  margin: 0;
   position: absolute;
-  right: 1px; /* Adjust the left position as needed to position it on the left side */
+  right: 15px;
+  width: 20px; /* Set the width of the favicon image */
+  height: 20px; /* Set the height of the favicon image */
+  background-color: #212026;
 }
 
 .close-button-image {
